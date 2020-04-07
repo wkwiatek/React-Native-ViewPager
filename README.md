@@ -6,9 +6,11 @@ This repo is updated version from https://github.com/zbtang/React-Native-ViewPag
 
 ViewPager and Indicator component for react-native on both android and ios. ViewPager's props is the same as [ViewPagerAndroid](https://facebook.github.io/react-native/docs/viewpagerandroid.html#content).
 
-<p>
-    <img src="./imgs/ad.png" width="1024">
-</p>
+## Installation Instructions:
+
+### Install from npm:
+
+`npm install --save rn-viewpager-handy`
 
 ## Linking - React Native ViewPager Handy:
 
@@ -79,6 +81,13 @@ protected List<ReactPackage> getPackages() {
 
 </details>
 
+
+
+<p>
+    <img src="./imgs/ad.png" width="1024">
+</p>
+
+
 ## Features
 
 - unify \<ViewPagerAndroid\> and \<ScrollView pagingEnabled={true}\> to \<ViewPager\>, add offer same props as [ViewPagerAndroid](https://facebook.github.io/react-native/docs/viewpagerandroid.html#content).
@@ -113,11 +122,7 @@ react-native run-ios
 
 [`<PagerTitleIndicator />` Component API](docs/titleindicator.md)
 
-## Usage
 
-### Install from npm:
-
-`npm install --save rn-viewpager-handy`
 
 ### Integrate into your app:
 
