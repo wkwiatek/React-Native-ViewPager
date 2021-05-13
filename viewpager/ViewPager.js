@@ -12,7 +12,7 @@ import {
   View
 } from "react-native";
 import React, { Component } from "react";
-import ViewPagerAndroid from "@react-native-community/viewpager";
+import ViewPagerAndroid from "react-native-pager-view";
 
 const SCROLLVIEW_REF = "scrollView";
 const VIEWPAGER_REF = "viewPager";

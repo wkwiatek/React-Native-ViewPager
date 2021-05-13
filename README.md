@@ -1,4 +1,9 @@
-# React-Native-ViewPager-Handy - Updated Version
+# Changes in the Fork 
+
+Update View Pager lib to: [callstack/react-native-pager-view](https://github.com/callstack/react-native-pager-view)
+
+
+# React-Native-ViewPager - Updated Version
 
 [![npm](https://img.shields.io/npm/v/rn-viewpager-handy.svg?style=plastic)](https://npmjs.org/package/rn-viewpager-handy) [![npm](https://img.shields.io/npm/dm/rn-viewpager.svg?style=plastic)](https://npmjs.org/package/rn-viewpager-handy) [![npm](https://img.shields.io/npm/dt/rn-viewpager-handy.svg?style=plastic)](https://npmjs.org/package/rn-viewpager-handy)
 
@@ -10,9 +15,9 @@ ViewPager and Indicator component for react-native on both android and ios. View
 
 ### Install from npm:
 
-`npm install --save rn-viewpager-handy`
+`npm install --save rn-viewpager`
 
-## Linking - React Native ViewPager Handy:
+## Linking - React Native ViewPager:
 
 ### >= 0.60
 
