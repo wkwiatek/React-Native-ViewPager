@@ -6,7 +6,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { StyleSheet, View, Image, Text, TouchableOpacity } from 'react-native'
-import { ViewPropTypes } from 'deprecated-react-native-prop-types'
+import { ViewPropTypes, TextPropTypes } from 'deprecated-react-native-prop-types'
 import IndicatorViewPager from '../IndicatorViewPager'
 
 export default class PagerTabIndicator extends Component {
@@ -23,8 +23,8 @@ export default class PagerTabIndicator extends Component {
         selectedItemStyle: ViewPropTypes.style,
         iconStyle: Image.propTypes.style,
         selectedIconStyle: Image.propTypes.style,
-        textStyle: Text.propTypes.style,
-        selectedTextStyle: Text.propTypes.style,
+        textStyle: TextPropTypes.style,
+        selectedTextStyle: TextPropTypes.style,
         changePageWithAnimation: PropTypes.bool,
     }
 
